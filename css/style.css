@@ -1,0 +1,117 @@
+ 
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family:'Bluu Next';
+    src: url(../fonts/BluuNext-Bold.otf);
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../Images/855789-harry-potter-hogwarts-legacy-se-devoile-dans-sa-bande-annonce-de-lancement.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+header {
+    height: 150px;
+    background-color: #1C2A3A;
+    padding-top: 40px;
+}
+
+header h1 {
+    font-family: 'Bluu Next';
+    color: #8B7A49;
+    font-size: 2em;
+    text-align: center;
+    
+}
+
+nav {
+    padding: 10px;
+    margin-top: 35px;
+    border-top: 3px solid #8B7A49;
+    
+}
+
+nav a {
+    color:#8B7A49;
+    padding: 13px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2em;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.402);
+}
+
+h2 {
+    font-family: 'Bluu Next';
+    color: #8B7A49;
+    font-size: 4em;
+    text-align: center;
+
+}
+main {
+    margin-top:15px ;
+    min-width: 350px;
+    max-width: 1300px;
+    background-color:  rgba(0, 0, 0, 0.784);
+    margin: auto;
+    padding: 25px;
+
+}
+
+ul {
+    margin-top: 10px;
+    color: #D4D5D5;
+    text-align: justify;
+    font-size: 1.7em;
+    line-height: 1em;
+    margin-left: 50px;
+}
+
+ul li {
+    padding: 10px;
+}
+
+main p {
+    margin-top: 10px;
+    color: #D4D5D5;
+    text-align: justify;
+    text-indent: 30px ;
+    font-size: 1.7em;
+    line-height: 1.7em;
+}
+
+img {
+    width: 700px;
+    height: 500px;
+    padding: 10px;
+    margin-left: 300px;
+}
+
+.livros {
+    height: 800px;
+}
+
+footer {
+    height: 100px;
+    width: 100vw;
+    background-color: #1C2A3A;
+    color: #8B7A49;
+    text-align: center;
+    padding: 10px;
+}
+
+footer h3 {
+    font-size: 2em;
+}
+
+footer a {
+    text-decoration: none;
+    color: #8B7A49;
+    padding: px;
+}
